@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navigation Bar */
 nav {
   background-color: #2575fc;
@@ -45,23 +50,45 @@ nav {
   color: #ffdd57;
 }
 
-/* Header styles */
+/* Landing Page Header */
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 40px 20px;
+  min-height: 100vh; /* Fill entire viewport height */
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: white;
   border-radius: 0 0 20px 20px;
+  padding: 20px;
 }
 
 header h1 {
+  font-size: 3em;
   margin: 0;
-  font-size: 2.5em;
 }
 
 header p {
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+/* Button in header */
+.btn-scroll {
+  margin-top: 20px;
+  background-color: #ffdd57;
+  color: #2575fc;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-scroll:hover {
+  background-color: #ffc107;
+  transform: scale(1.05);
 }
 
 /* Project Grid */
@@ -160,4 +187,5 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
