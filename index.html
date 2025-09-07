@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Internship Project Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AI Internship Project Hub</h1>
+    <p>All projects in one place for easy access</p>
+  </header>
+
+  <main>
+    <div id="project-list" class="project-grid"></div>
+  </main>
+
+  <script>
+    // Fetch the projects from projects.json
+    fetch('projects.json')
+      .then(response => response.json())
+      .then(projects => {
+        const container = document.getElementById('project-list');
+        
+        projects.forEach(project => {
+          const card = document.createElement('div');
+          card.className = 'project-card';
+
+          card.innerHTML = `
+            <h2>${project.title}</h2>
+            <p>${project.description}</p>
+            <div class="buttons">
+              <a href="${project.repo}" target="_blank">Source Code</a>
+              <a href="${project.video}" target="_blank">Video Demo</a>
+            </div>
+          `;
+
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error("Error loading projects:", error);
+      });
+  </script>
+</body>
+</html>
