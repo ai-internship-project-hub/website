@@ -5,14 +5,14 @@
       "items": [
         {
           "title": "Project 1 by Tejaswini",
-          "description": "Description of Tejaswini's project.",
-          "repo": "https://github.com/yourusername/project1",
+          "description": "Description of Tejaswini's first project.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
           "video": "https://youtube.com/link1"
         },
         {
           "title": "Project 2 by Tejaswini",
-          "description": "Another project by Tejaswini.",
-          "repo": "https://github.com/yourusername/project2",
+          "description": "Description of Tejaswini's second project.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
           "video": "https://youtube.com/link2"
         }
       ]
@@ -22,12 +22,17 @@
       "items": [
         {
           "title": "Project 1 by Divya",
-          "description": "Description of Divya's project.",
-          "repo": "https://github.com/divya/project1",
+          "description": "Description of Divya's first project.",
+          "repo": "https://github.com/divya/divya-project1",
           "video": "https://youtube.com/link3"
+        },
+        {
+          "title": "Project 2 by Divya",
+          "description": "Description of Divya's second project.",
+          "repo": "https://github.com/divya/divya-project2",
+          "video": "https://youtube.com/link4"
         }
       ]
     }
   ]
 }
-
