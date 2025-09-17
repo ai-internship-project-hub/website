@@ -4,14 +4,176 @@
       "contributor": "Tejaswini",
       "items": [
         {
-          "title": "Project 1 by Tejaswini",
-          "description": "Description of Tejaswini's first project.",
+          "title": "AI Sentiment Analyzer",
+          "description": "A Python-based tool that analyzes text to determine the sentiment as positive, negative, or neutral using natural language processing.",
           "repo": "https://github.com/yourusername/tejaswini-project1",
           "video": "https://youtube.com/link1"
         },
         {
-          "title": "Project 2 by Tejaswini",
-          "description": "Description of Tejaswini's second project.",
+          "title": "AI Resume Analyzer",
+          "description": "A tool that extracts key skills and information from resumes to match them with job requirements using text processing techniques.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Daily Planner & Focus Assistant",
+          "description": "An AI-powered assistant that helps users organize daily tasks and stay focused by providing reminders and productivity suggestions.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "Waste Sorting Assistant",
+          "description": "An AI-based tool that helps users identify and sort waste into correct categories for better recycling and environmental management.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "Interview Question Generator",
+          "description": "An AI tool that generates relevant interview questions based on job roles to help users prepare effectively.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Language Translation Assistant",
+          "description": "An AI-powered assistant that translates text between different languages to support communication and learning.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Virtual Job Interview Coach",
+          "description": "An AI-driven coach that helps users practice and improve their interview skills by providing feedback and mock questions.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Meme Generator",
+          "description": "An AI tool that creates funny and engaging memes by generating captions based on topics.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Typing Speed Tester",
+          "description": "An AI-powered tool that measures typing speed and accuracy while providing insights to improve typing performance.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Visual Note Generator",
+          "description": "“An AI tool that converts text or ideas into organized and visually appealing notes for better understanding and learning.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "Smart AI Recipe Generator with Nutritional Info",
+          "description": "An AI-powered recipe generator that suggests dishes based on ingredients while providing detailed nutritional information.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Eye Strain Alert",
+          "description": "An AI tool that monitors screen time and usage patterns to alert users and prevent eye strain.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Code Explainer Tutor",
+          "description": "An AI-powered tutor that explains programming code in simple terms to help users understand and learn effectively.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Dictionary & Sentence Maker",
+          "description": "An AI tool that provides word meanings and generates example sentences for better language learning and usage.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Exam Question Paper Generator",
+          "description": "An AI tool that creates customized exam question papers based on topics, difficulty levels, and formats.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Mental Health Chatbot",
+          "description": "An AI-powered chatbot that provides emotional support, coping strategies, and mental wellness guidance.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Code Debugger & Fixer",
+          "description": "An AI tool that identifies errors in code and provides accurate suggestions to fix them.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Travel Planner",
+          "description": "An AI tool that creates personalized travel itineraries, suggesting destinations, activities, and accommodations.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "Chatbot for Customer Service",
+          "description": "An AI chatbot that assists customers by answering queries, resolving issues, and providing support efficiently.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "Student Feedback Sentiment Analysis",
+          "description": "An AI tool that analyzes student feedback to determine opinions, emotions, and overall satisfaction.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "Language Learning Bot",
+          "description": "An AI bot that helps users practice, learn, and improve new languages through interactive lessons and exercises.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Calculator",
+          "description": "An AI-powered calculator that performs arithmetic, complex calculations, and provides step-by-step solutions.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+        {
+          "title": "AI Chat to SQL",
+          "description": "An AI tool that converts natural language queries into accurate SQL commands for database interaction.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Animal Species Prediction",
+          "description": "An AI tool that identifies and predicts animal species from descriptions.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+         {
+          "title": "AI Diet Planner",
+          "description": "An AI tool that creates personalized meal plans and nutritional recommendations based on individual health goals.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Project Recommender",
+          "description": "An AI tool that suggests suitable project ideas based on user interests, skills, and trending technologies.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+         {
+          "title": "AI Personal Finance Assistant",
+          "description": "An AI tool that helps users manage income, expenses, and savings by providing personalized budgeting and investment advice.",
+          "repo": "https://github.com/yourusername/tejaswini-project1",
+          "video": "https://youtube.com/link1"
+        },
+        {
+          "title": "AI Poem Generator",
+          "description": "An AI tool that creates original poems based on user prompts, themes, or emotions.",
+          "repo": "https://github.com/yourusername/tejaswini-project2",
+          "video": "https://youtube.com/link2"
+        }
+         {
+          "title": "AI Internship Project Hub Website",
+          "description": "An AI tool that creates original poems based on user prompts, themes, or emotions.",
           "repo": "https://github.com/yourusername/tejaswini-project2",
           "video": "https://youtube.com/link2"
         }
