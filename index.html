@@ -32,7 +32,7 @@
 
   <!-- Projects Section -->
   <main id="projects">
-    <div class="project-grid" id="project-list"></div>
+    <div id="project-list"></div>
   </main>
 
   <!-- Footer -->
@@ -62,6 +62,9 @@
         heading.className = 'contributor-name';
         section.appendChild(heading);
 
+        const grid = document.createElement('div');
+        grid.className = 'project-grid';
+
         group.items.forEach(project => {
           const card = document.createElement('div');
           card.className = 'project-card';
@@ -73,9 +76,10 @@
               <a href="${project.video}" class="video" target="_blank">Video Demo</a>
             </div>
           `;
-          section.appendChild(card);
+          grid.appendChild(card);
         });
 
+        section.appendChild(grid);
         container.appendChild(section);
       });
     })
@@ -84,9 +88,9 @@
       const container = document.getElementById('project-list');
       container.innerHTML = "<p style='color:red;'>Failed to load projects. Please check the JSON file.</p>";
     });
-</script>
-
+  </script>
 
 </body>
 </html>
+
 
