@@ -36,9 +36,6 @@ nav {
   margin: 0;
 }
 
-.nav-container ul li {
-}
-
 .nav-container ul li a {
   color: white;
   text-decoration: none;
@@ -73,7 +70,6 @@ header p {
   animation: fadeInUp 1s ease;
 }
 
-/* Subtle floating effect */
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -118,7 +114,7 @@ header p {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
-  margin: 30px;
+  margin: 20px 0;
 }
 
 /* Project Cards */
@@ -135,7 +131,7 @@ header p {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.project-card h2 {
+.project-card h3 {
   margin-top: 0;
   color: #2575fc;
 }
@@ -181,6 +177,19 @@ header p {
   background-color: #0056d6;
 }
 
+/* Contributor Section Styles */
+.contributor-section {
+  margin: 40px 20px;
+}
+
+.contributor-name {
+  color: #2575fc;
+  border-bottom: 2px solid #2575fc;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -208,17 +217,10 @@ footer {
     margin: 20px;
     grid-template-columns: 1fr;
   }
-  /* Contributor section styles */
-.contributor-section {
-  margin: 40px 20px;
-}
 
-.contributor-name {
-  color: #2575fc;
-  border-bottom: 2px solid #2575fc;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
+  .contributor-section {
+    margin: 20px;
+  }
 }
 
 
