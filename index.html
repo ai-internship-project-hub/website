@@ -43,26 +43,28 @@
   <!-- JavaScript to load projects -->
   <script>
   fetch('projects.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to load projects.json');
+      }
+      return response.json();
+    })
     .then(data => {
       const container = document.getElementById('project-list');
+      container.innerHTML = ""; // Clear before adding
 
       data.projects.forEach(group => {
-        // Create a section for each contributor
         const section = document.createElement('div');
         section.className = 'contributor-section';
         
-        // Contributor name as a heading
         const heading = document.createElement('h2');
         heading.textContent = group.contributor;
         heading.className = 'contributor-name';
         section.appendChild(heading);
 
-        // Create project cards under this contributor
         group.items.forEach(project => {
           const card = document.createElement('div');
           card.className = 'project-card';
-          
           card.innerHTML = `
             <h3>${project.title}</h3>
             <p>${project.description}</p>
@@ -71,7 +73,6 @@
               <a href="${project.video}" class="video" target="_blank">Video Demo</a>
             </div>
           `;
-          
           section.appendChild(card);
         });
 
@@ -80,8 +81,11 @@
     })
     .catch(error => {
       console.error("Error loading projects:", error);
+      const container = document.getElementById('project-list');
+      container.innerHTML = "<p style='color:red;'>Failed to load projects. Please check the JSON file.</p>";
     });
 </script>
+
 
 </body>
 </html>
